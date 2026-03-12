@@ -1,7 +1,7 @@
 "GameInfo"
 {
 	game	"Terror-Strike"
-	title	"TERROR-STRIKE'"
+	title	"Terror-Strike"
 	title2	""
 	type singleplayer_only
 	nomodels 1

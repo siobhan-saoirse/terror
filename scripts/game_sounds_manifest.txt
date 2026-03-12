@@ -46,6 +46,7 @@ game_sounds_manifest
 
 	 "preload_file"  	"scripts/game_sounds.txt"
 	 "preload_file"  	"scripts/game_sounds_physics.txt"
+	 "preload_file"  	"scripts/game_sounds_physics_css.txt"
 	 "preload_file"  	"scripts/game_sounds_physics_manifest.txt"
 	 "preload_file"  	"scripts/game_sounds_weapons.txt"
 	 "preload_file"  	"scripts/game_sounds_weapons_dlc1.txt"
