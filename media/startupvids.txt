@@ -1,2 +1,0 @@
-media/valve.avi
-media/teaser_l4d.avi
