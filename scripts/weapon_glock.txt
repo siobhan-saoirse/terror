@@ -70,23 +70,29 @@ WeaponData
 		"single_shot"		"Pistol.Fire"
 	}
 
-	// Weapon Sprite data is loaded by the Client DLL.
+// Weapon Sprite data is loaded by the Client DLL.
 	TextureData
 	{
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"C"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"256"
+				"y"			"320"
+				"width"		"64"
+				"height"	"64"
 		}
-		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"C"
+		"weapon_dual"
+		{
+				"file"		"vgui/hud/iconsheet"
+				"x"			"192"
+				"y"			"320"
+				"width"		"64"
+				"height"	"64"
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"R"
+				"font"		"DebugFixed"
+				"character"	"A"
 		}
 		"crosshair"
 		{

@@ -64,24 +64,25 @@ WeaponData
 		"single_shot"		"AK47.Fire"
 	}
 
+	
 	// Weapon Sprite data is loaded by the Client DLL.
 	TextureData
 	{
-		//Weapon Select Images
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"B"
-		}
-		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"B"
+				"file"		"vgui/hud/iconsheet2"
+				"x"			"128"
+				"y"			"384"
+				"width"		"192"
+				"height"	"64"	
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"V"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"384"
+				"y"			"448"
+				"width"		"64"
+				"height"	"64"
 		}
 		"crosshair"
 		{
