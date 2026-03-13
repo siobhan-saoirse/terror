@@ -309,14 +309,14 @@
 {
 	"channel"		"CHAN_ITEM"
 	"soundlevel"		"SNDLVL_NORM"
-	"wave"		"weapons/dual_pistol/gunother/dualpistol_clip_in_1.wav"
+	"wave"		"weapons/pistol/gunother/pistol_clip_in_1.wav"
 }
 
 "DualPistol.ClipOut"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"		"SNDLVL_NORM"
-	"wave"		"weapons/dual_pistol/gunother/dualpistol_clip_out_1.wav"
+	"wave"		"weapons/pistol/gunother/pistol_clip_out_1.wav"
 }
 
 "DualPistol.SlideBack"

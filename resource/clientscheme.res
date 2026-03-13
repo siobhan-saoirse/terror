@@ -249,8 +249,8 @@ Scheme
 
 		"ViewportBG"		"Blank"
 		"team0"			"204 204 204 255" // Spectators
-		"team1"			"153 204 255 255" // CT's
-		"team2"			"255 64 64 255" // T's
+		"team1"			"255 64 64 255" // CT's
+		"team2"			"153 204 255 255" // T's
 
 		"MapDescriptionText"	"Orange" // the text used in the map description window
 		"CT_Blue"			"255 64 64 255"
