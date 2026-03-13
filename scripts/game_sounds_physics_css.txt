@@ -1,6 +1,6 @@
 // Physics Sounds
 //
-//	NOTE:  CHAN_BODY is used by sounds in many cases, but the code
+//	NOTE:  CHAN_VOICE_BASE is used by sounds in many cases, but the code
 //   uses CHAN_STATIC in others, so I didn't specify a channel here
 //  Volume is determined procedurally by the physics code
 //
@@ -2057,7 +2057,7 @@
 
 "Breakable.MatWood"
 {
-	"channel"	"CHAN_BODY"
+	"channel"	"CHAN_VOICE_BASE"
 	"volume"		"0.7"
 	"rndwave"
 	{
@@ -2070,7 +2070,7 @@
 
 "Breakable.MatFlesh"
 {
-	"channel"	"CHAN_BODY"
+	"channel"	"CHAN_VOICE_BASE"
 	"volume"		"0.7"
 	"rndwave"
 	{
@@ -2082,7 +2082,7 @@
 
 "Breakable.MatMetal"
 {
-	"channel"	"CHAN_BODY"
+	"channel"	"CHAN_VOICE_BASE"
 	"volume"		"0.7"
 	"rndwave"
 	{
@@ -2093,7 +2093,7 @@
 
 "Breakable.MatConcrete"
 {
-	"channel"	"CHAN_BODY"
+	"channel"	"CHAN_VOICE_BASE"
 	"volume"		"0.7"
 	"rndwave"
 	{
@@ -2104,7 +2104,7 @@
 
 "Breakable.MatGlass"
 {
-	"channel"	"CHAN_BODY"
+	"channel"	"CHAN_VOICE_BASE"
 	"volume"		"0.7"
 	"rndwave"
 	{
@@ -2267,7 +2267,7 @@
 
 "Cardboard.ImpactSoft"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.6"
@@ -2285,7 +2285,7 @@
 
 "Cardboard.ImpactHard"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.8"
@@ -2303,7 +2303,7 @@
 
 "Cardboard.BulletImpact"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"1.0"
@@ -2320,7 +2320,7 @@
 
 "Cardboard.Strain"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.8"
@@ -2334,7 +2334,7 @@
 
 "Cardboard.Break"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.8"
@@ -2348,7 +2348,7 @@
 
 "Cardboard.Shake"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.6"
@@ -2362,7 +2362,7 @@
 
 "Cardboard.ScrapeSmooth"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"0.55"
@@ -2372,7 +2372,7 @@
 
 "Cardboard.ScrapeRough"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"0.35"
@@ -2408,7 +2408,7 @@
 
 "Plastic_Barrel.ImpactSoft"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"0.6"
@@ -2425,7 +2425,7 @@
 
 "Plastic_Barrel.ImpactHard"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"0.8"
@@ -2440,7 +2440,7 @@
 
 "Plastic_Barrel.BulletImpact"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"1.0"
@@ -2455,7 +2455,7 @@
 
 "Plastic_Barrel.Strain"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.8"
@@ -2469,7 +2469,7 @@
 
 "Plastic_Barrel.Break"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"1.0"
@@ -2483,7 +2483,7 @@
 
 "Plastic_Barrel.ScrapeSmooth"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"0.55"
@@ -2493,7 +2493,7 @@
 
 "Plastic_Barrel.ScrapeRough"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"0.35"
@@ -2503,7 +2503,7 @@
 
 "Plastic_Barrel.Roll"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.4"
@@ -2540,7 +2540,7 @@
 
 "Plastic_Box.ImpactSoft"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"0.6"
@@ -2555,7 +2555,7 @@
 
 "Plastic_Box.ImpactHard"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"0.8"
@@ -2570,7 +2570,7 @@
 
 "Plastic_Box.BulletImpact"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"1.0"
@@ -2586,7 +2586,7 @@
 
 "Plastic_Box.Strain"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.8"
@@ -2600,7 +2600,7 @@
 
 "Plastic_Box.Break"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"1.0"
@@ -2614,7 +2614,7 @@
 
 "Plastic_Box.ScrapeSmooth"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"0.55"
@@ -2624,7 +2624,7 @@
 
 "Plastic_Box.ScrapeRough"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"0.35"
@@ -2654,7 +2654,7 @@
 
 "Rubber.BulletImpact"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"90,96"
 	"volume"	"0.7"
@@ -2663,7 +2663,7 @@
 
 "Rubber.ImpactSoft"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.4"
@@ -2672,7 +2672,7 @@
 
 "Rubber.ImpactHard"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.5"
@@ -2682,7 +2682,7 @@
 
 "Rubber_Tire.ImpactSoft"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.6"
@@ -2696,7 +2696,7 @@
 
 "Rubber_Tire.ImpactHard"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.8"
@@ -2710,7 +2710,7 @@
 
 "Rubber_Tire.BulletImpact"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"96,104"
 	"volume"	"1.0"
@@ -2725,7 +2725,7 @@
 
 "Rubber_Tire.Strain"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 	"volume"	"0.8"

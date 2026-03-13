@@ -3,11 +3,12 @@
 	game	"Terror-Strike"
 	title	"Terror-Strike"
 	title2	""
-	type singleplayer_only
+	type multiplayer_only
 	nomodels 1
 	nohimodel 1
 	nocrosshair 0
 	advcrosshair 3
+	bots 1
 	icon		"resource/icon"
 	supportsvr	0
 	hidden_maps
