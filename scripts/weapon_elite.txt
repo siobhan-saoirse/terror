@@ -37,11 +37,11 @@ WeaponData
 	"RecoveryTimeStand"			0.29703
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#Cstrike_WPNHUD_Elites"
-	"viewmodel"			"models/weapons/v_pist_elite.mdl"
-	"playermodel"			"models/weapons/w_pist_elite.mdl"
-	"AddonModel"			"models/weapons/w_pist_elite_single.mdl"
-	"DroppedModel"			"models/weapons/w_pist_elite_dropped.mdl"
+	"printname"			"Duel Pistols"
+	"viewmodel"			"models/v_models/v_dual_pistolA.mdl"
+	"playermodel"			"models/w_models/weapons/w_pistol_A_dual.mdl"
+	"AddonModel"			"models/w_models/weapons/w_pistol_A.mdl"
+	"DroppedModel"			"models/w_models/weapons/w_pistol_A_dual.mdl"
 
 	"anim_prefix"			"anim"
 	"bucket"			"1"
@@ -58,26 +58,24 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"single_shot"		"Weapon_Elite.Single"
+		"single_shot"		"Pistol.Fire"
 	}
 
-	// Weapon Sprite data is loaded by the Client DLL.
+// Weapon Sprite data is loaded by the Client DLL.
 	TextureData
 	{
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"S"
-		}
-		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"S"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"192"
+				"y"			"320"
+				"width"		"64"
+				"height"	"64"
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"R"
+				"font"		"DebugFixed"
+				"character"	"A"
 		}
 		"crosshair"
 		{
@@ -100,13 +98,13 @@ WeaponData
 	{
 		Viewmodel
 		{
-			Mins	"-3 -12 -12"
-			Maxs	"18 11 2"
+			Mins	"-7 -4 -14"
+			Maxs	"24 9 -2"
 		}
 		World
 		{
-			Mins	"-1 -7 -4"
-			Maxs	"12 9 5"
+			Mins	"-1 -4 -3"
+			Maxs	"17 5 6"
 		}
 	}
 }
