@@ -45,6 +45,7 @@ game_sounds_manifest
 	 "precache_file"  	"scripts/game_sounds_doors.txt"
 
 	 "preload_file"  	"scripts/game_sounds.txt"
+	 "preload_file"  	"scripts/game_sounds_physics_patch.txt"
 	 "preload_file"  	"scripts/game_sounds_physics.txt"
 	 "preload_file"  	"scripts/game_sounds_physics_css.txt"
 	 "preload_file"  	"scripts/game_sounds_physics_manifest.txt"

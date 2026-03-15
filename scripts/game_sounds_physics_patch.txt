@@ -278,7 +278,7 @@
 
 "Survivor.Snow.RunLeft"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 
 	"soundlevel"		"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -297,7 +297,7 @@
 
 "Survivor.Snow.RunRight"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 
 	"soundlevel"		"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -316,7 +316,7 @@
 
 "Survivor.Snow.WalkLeft"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 
 	"soundlevel"		"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -332,7 +332,7 @@
 
 "Survivor.Snow.WalkRight"
 {
-	"channel"		"CHAN_BODY"
+	"channel"		"CHAN_VOICE_BASE"
 
 	"soundlevel"		"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -348,175 +348,187 @@
 
 "Infected.Snow.RunLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/infected/run/sand1.wav"
-		"wave"		"player/footsteps/infected/run/sand3.wav"
+		"wave"		"player/footsteps/snow1.wav"
+		"wave"		"player/footsteps/snow2.wav"
+		"wave"		"player/footsteps/snow3.wav"
 	}
 }
 
 "Infected.Snow.RunRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/infected/run/sand2.wav"
-		"wave"		"player/footsteps/infected/run/sand4.wav"
+		"wave"		"player/footsteps/snow4.wav"
+		"wave"		"player/footsteps/snow5.wav"
+		"wave"		"player/footsteps/snow6.wav"
 	}
 }
 
 "Infected.Snow.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/infected/walk/sand1.wav"
-		"wave"		"player/footsteps/infected/walk/sand3.wav"
+		"wave"		"player/footsteps/snow1.wav"
+		"wave"		"player/footsteps/snow2.wav"
+		"wave"		"player/footsteps/snow3.wav"
 	}
 }
 
 "Infected.Snow.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/infected/walk/sand2.wav"
-		"wave"		"player/footsteps/infected/walk/sand4.wav"
+		"wave"		"player/footsteps/snow1.wav"
+		"wave"		"player/footsteps/snow2.wav"
+		"wave"		"player/footsteps/snow3.wav"
 	}
 }
 
 "Boomer.Snow.RunLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/boomer/run/sand1.wav"
-		"wave"		"player/footsteps/boomer/run/sand3.wav"
+		"wave"		"player/footsteps/snow1.wav"
+		"wave"		"player/footsteps/snow2.wav"
+		"wave"		"player/footsteps/snow3.wav"
 	}
 }
 
 "Boomer.Snow.RunRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/boomer/run/sand2.wav"
-		"wave"		"player/footsteps/boomer/run/sand4.wav"
+		"wave"		"player/footsteps/snow4.wav"
+		"wave"		"player/footsteps/snow5.wav"
+		"wave"		"player/footsteps/snow6.wav"
 	}
 }
 
 "Boomer.Snow.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/boomer/run/sand1.wav"
-		"wave"		"player/footsteps/boomer/run/sand3.wav"
+		"wave"		"player/footsteps/snow1.wav"
+		"wave"		"player/footsteps/snow2.wav"
+		"wave"		"player/footsteps/snow3.wav"
 	}
 }
 
 "Boomer.Snow.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/boomer/run/sand2.wav"
-		"wave"		"player/footsteps/boomer/run/sand4.wav"
+		"wave"		"player/footsteps/snow4.wav"
+		"wave"		"player/footsteps/snow5.wav"
+		"wave"		"player/footsteps/snow6.wav"
 	}
 }
 
 "Jockey.Snow.RunLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/boomer/run/sand1.wav"
-		"wave"		"player/footsteps/boomer/run/sand3.wav"
+		"wave"		"player/footsteps/snow1.wav"
+		"wave"		"player/footsteps/snow2.wav"
+		"wave"		"player/footsteps/snow3.wav"
 	}
 }
 
 "Jockey.Snow.RunRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/boomer/run/sand2.wav"
-		"wave"		"player/footsteps/boomer/run/sand4.wav"
+		"wave"		"player/footsteps/snow4.wav"
+		"wave"		"player/footsteps/snow5.wav"
+		"wave"		"player/footsteps/snow6.wav"
 	}
 }
 
 "Jockey.Snow.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/boomer/run/sand1.wav"
-		"wave"		"player/footsteps/boomer/run/sand3.wav"
+		"wave"		"player/footsteps/snow1.wav"
+		"wave"		"player/footsteps/snow2.wav"
+		"wave"		"player/footsteps/snow3.wav"
 	}
 }
 
 "Jockey.Snow.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/boomer/run/sand2.wav"
-		"wave"		"player/footsteps/boomer/run/sand4.wav"
+		"wave"		"player/footsteps/snow4.wav"
+		"wave"		"player/footsteps/snow5.wav"
+		"wave"		"player/footsteps/snow6.wav"
 	}
 }
 
 "Witch.Snow.RunLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -530,7 +542,7 @@
 
 "Witch.Snow.RunRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -544,7 +556,7 @@
 
 "Witch.Snow.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -558,7 +570,7 @@
 
 "Witch.Snow.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
